@@ -91,6 +91,7 @@ add_library(qauxv-core0 SHARED
         utils/art_symbol_resolver.cc
         utils/xz_decoder.cc
         utils/byte_array_output_stream.cc
+        utils/AntiDetectionHook.cc
 
         ntkernel/NtRecallMsgHook.cc
         ntkernel/card_msg_sender.cc
